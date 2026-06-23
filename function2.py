@@ -91,3 +91,61 @@ def full_intro(name, age, course):
     
     
 full_intro("Miracle", "17", "Tech")
+
+def greet():
+    print("Hello student")
+    
+greet()
+
+def greet(name):
+    print("hello", name)
+    
+greet("john")
+greet("amina")
+
+def add(a, d):
+    print(a + d)
+
+add(5, 10)
+
+def add(a, d):
+    return a + d
+
+result = add(10, 20)
+print(result)
+
+# argument in function
+def numbers(* args):
+    print(args)
+    
+numbers(1, 2, 3, 4, 5, 6, 7)
+
+def add(*args):
+    total = 0
+    
+    for num in args:
+        total += num
+        
+    return total
+
+print(add(2, 4, 7))
+
+# def in kwargs
+def student(**kwargs):
+    print(kwargs)
+    
+    
+student(name = "john", age = 15, level = "ss2")
+    
+# scope in function
+x = 5 # global variable
+def show():
+    print(x)
+
+show()
+
+def show():
+    x = 10 # local variable
+    print(x)
+
+show()

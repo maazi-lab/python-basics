@@ -133,7 +133,3 @@ else:
     print("Remark: Failed!")
     
 
-file = open("student.txt", "w")
-file.write("echezona")
-file.close()
-
