@@ -99,6 +99,21 @@ stud4 = input("what is ypour name")
 student = (stud1, stud2, stud3, stud4)
 print(student)
 
+# Count even and odd numbers in tuple of ten numbers
+numbers = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+
+even_count = 0
+odd_count = 0
+
+for num in numbers:
+    if num % 2 == 0:
+        even_count += 1
+    else:
+        odd_count += 1
+
+print("Even numbers count:", even_count)
+print("Odd numbers count:", odd_count)
+
 num = (5, 10, 15)
 print(sum(num))
 
@@ -216,3 +231,53 @@ for nums in num:
     if nums % 2 != 0:
         print("odds", nums)
         
+fruits = ("mango", "orange", "apple", "watermelon", "pineapple")
+fruit0, fruits1, fruits2, fruits3, fruits4 = fruits
+
+print(fruit0)
+print(fruits1)
+print(fruits2)
+print(fruits3)
+print(fruits4)
+
+student = ("emaka", "monica", "peter", "joy", "favour")
+print(student)
+
+
+num = (4, 5, 8, 19, 18, 45)
+print(max(num))
+
+score = (45, 89, 43, 20, 68)
+num1 = len(score)
+num2 = sum(score)
+average = num2 / num1
+print(str(average))
+
+names = ("emeka", "monica", "joy", "andrew" "favour")
+age = (67, 89, 90, 85, 70)
+count = o
+for name, age in  zip(names, age):
+    print(name, + ":" + str(age))
+    count = count + 1
+    
+print("total number of students:", str(count))
+
+ # Count even and odd numbers in tuple of ten numbers
+numbers = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+
+even_count = 0
+odd_count = 0
+
+for num in numbers:
+    if num % 2 == 0:
+        even_count += 1
+    else:
+        odd_count += 1
+
+print("Even numbers count:", even_count)
+print("Odd numbers count:", odd_count)
+
+words = ("apple", "banana", "orange", "grape", "mango")
+for word in words:
+    print(max(word))
+

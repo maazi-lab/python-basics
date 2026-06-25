@@ -1,10 +1,7 @@
-def add(*args):
-    total = 0
-    
-    for num in args:
-        total += num
-        
-    return total
+class InvalidAgeError(Exception):
+    pass
 
-print(add(2, 4, 7))
+age = 150
 
+if age > 100:
+    raise InvalidAgeError("Invalid age")

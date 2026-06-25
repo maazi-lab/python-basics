@@ -70,18 +70,77 @@ student["class"] = input("enter your class")
 print("\student record")
 print(student)
 
+# dictionary challenge
 
-# result checker
-score = int(input("enter your score:"))
-if score >= 80:
-    print("Grade: A Execellent!")
-elif score >= 70:
-    print("Grade: B Very Good!")
-elif score >= 60:
-    print("Grade: C Good!")
-elif score >= 40:
-    print("Grade: D Fair!")
+mine_record = {"name" = "john",
+               "age" = 20,
+               "class" = "ss2"
+               }
+print("my record")    
+
+
+phone = {"brand": "samsung",
+        "price": 200000,
+        "color": "black"
+        }
+
+print(phone)
+
+countries = {"nigeria": "lagos",
+                "ghana": "accra",
+                "kenya": "nairobi"
+                }
+for key, value in countries.items():
+    print(key, "=", value)
+
+# Create student dictionary, update age, add grade, and print
+student = {"name": "John", "age": 20, "class": "SS2"}
+print("Original dictionary:", student)
+
+# Update age value
+student["age"] = 21
+print("After updating age:", student)
+
+# Add new key "grade"
+student["grade"] = "A"
+print("Full dictionary with grade:", student)
+
+student_score = {"emeka": 85, "ngozi": 90, "mary": 78, "favour": 92, "andrew": 88}
+for name, score in student_score.items():
+    print(f"{name}: {score}")
+    
+students = {"emeka": 85, "ngozi": 90, "mary": 78, "favour": 92, "andrew": 88}
+for name, score in students.items():
+    print(max(students, key=students.get))
+
+# Shop dictionary with name, location, and list of products
+shop = {
+    "name": "Tech Store",
+    "location": "Main Street",
+    "products": ["Laptop", "Phone", "Headphones", "Charger", "USB Cable"]
+}
+
+print("Shop Name:", shop["name"])
+print("Products in", shop["name"] + ":")
+for product in shop["products"]:
+    print("  -", product)
+
+# Mini Dictionary - Words and their meanings
+word_meanings = {
+    "python": "A high-level programming language known for simplicity",
+    "algorithm": "A step-by-step procedure for solving a problem",
+    "variable": "A named storage location that holds a value",
+    "function": "A reusable block of code that performs a specific task"
+}
+
+# Ask user to enter a word
+user_word = input("Enter a word to find its meaning: ").lower()
+
+# Check if word exists in dictionary and print meaning
+if user_word in word_meanings:
+    print("Meaning:", word_meanings[user_word])
 else:
-    print("Grade: F Failed")
+    print("Word not found in dictionary!")
     
-    
+
+

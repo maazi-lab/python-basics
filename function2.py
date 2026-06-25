@@ -148,4 +148,72 @@ def show():
     x = 10 # local variable
     print(x)
 
-show()
+
+# argument in function
+
+def moni(*me):
+    for item in me:
+        print(item)
+        
+moni("john", "mary", "james", "favour")
+
+
+def find_max(*args):
+    return max(args)
+print(find_max(2, 4, 6, 8, 10))
+
+
+def display(*args):
+    for item in args:
+        print(item)
+
+display("python", "java", "c++", "javascript")
+display("apple", "banana", "cherry")
+
+def profile(**kwargs):
+    print(kwargs)
+
+profile(name = "john", age = 20, country = "USA")
+
+# args and kwargs in function
+def info(*args, **kwargs):
+    print("Args:", args)
+    print("Kwargs:", kwargs)
+    
+info("python","jango", name = "john", age = 20)
+# local and global variable
+name = "global name"
+def total():
+    name = "local name"
+    print(name)
+    
+total()
+print(name)
+
+# global keyword in function
+count = 0
+
+
+def increase():
+    global count
+    count += 1
+    
+increase()
+print(count)
+
+def register(**kwargs):
+    print("User Information:")
+    for key, value in kwargs.items():
+        print(f"{key}: {value}")
+        
+register(name = "john", age = 20, email = "john@example.com")
+
+try:
+    print(10 / 2)
+except:
+    print("Error: Division by zero is not allowed.")
+finally:
+    print("Division successful.")
+    
+    
+    
