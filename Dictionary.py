@@ -143,4 +143,37 @@ else:
     print("Word not found in dictionary!")
     
 
+student_score = {"emeka": 85,
+                 "ngozi": 90,
+                 "mary": 48,
+                 "favour": 52,
+                 "andrew": 88
+                 }
+for score in student_score.values():
+    if score >= 70:
+        print(score, "pass")
+        
+person = {"name": "emeka", "age": 20, "city": "lagos"}
+person2 = {"name": "mary", "age": 25, "city": "abuja"}
+person3 = {"name": "favour", "age": 30, "city": "kano"}
 
+print(f'{person["name"]} is {person["age"]} years old and lives in {person["city"]}')
+print(f'{person2["name"]} is {person2["age"]} years old and lives in {person2["city"]}')
+print(f'{person3["name"]} is {person3["age"]} years old and lives in {person3["city"]}')
+
+
+products = {"laptop": 1000, "phone": 500, "headphones": 100, "charger": 50, "usb cable": 20}
+for product, price in products.items():
+    totsl = sum(products.values())
+    print(f'The total price of all products is: {totsl}')
+    
+student_score = {"emeka": 85, "ngozi": 90, "mary": 78, "favour": 92, "andrew": 88}
+normal_average = 40
+average_score = sum(student_score.values()) / len(student_score)
+if average_score >= normal_average:
+    print("The average score is above the normal average.")
+else:
+    print("The average score is below the normal average.")
+    
+    
+    

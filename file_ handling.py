@@ -52,12 +52,42 @@ with open("student.txt", "r") as file:
     for  line in file:
         print(line.strip())
         
-# create note in diary
-note = input("write your note:")
-with open("diary.txt", "r") as file:
-    file.write(note)
-print(" note save")
-
 # read it back
 with open("diary.txt", "r") as file:
     file.read()
+
+with open("diary.txt", "r") as file:
+    content = file.read()
+    print(content)
+    
+with open("diary.txt", "a") as file:
+    note = input("write your note:")
+    file.write(note + "\n")
+    
+# creating a new file and writing to it
+with open("myraktech.txt", "w") as file:
+    file.write("hello this is myraktech!\n")
+    file.write("I'm learning python programming.\n")
+    file.write("My goal is to an Ai engineer.\n")
+print("file created and written successfully!")
+
+# read the file and display its content
+with open("myraktech.txt", "r") as file:
+    content = file.read()
+    print(content)
+    
+# read file line by line and display each line
+with open("myraktech.txt", "r") as file:
+    for line in file:
+        print(line.strip())
+
+# add without deleting old content
+with open("myraktech.txt", "a") as file:
+    file.write("I will not give up on my dreams!\n")
+    file.write("Consittency is key to success.\n")
+print("new content added to the file successfully!")
+
+# check to comfirm the new content has been added
+with open("myraktech.txt", "r") as file:
+    content = file.read()
+    print(content)

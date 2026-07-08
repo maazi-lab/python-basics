@@ -1,0 +1,28 @@
+# buit in modules
+import math
+print(math.sqrt(25))
+print(math.pi)
+print(math.factorial(25))
+
+# random modules
+import random
+print(random.randint(1, 10))
+
+# date time module
+import datetime
+today = datetime.datetime.now()
+print(today)
+
+# calender module
+import calendar
+print(calendar.month(2026, 7))
+
+# os module
+import os
+print(os.getcwd())
+
+import calculator
+print(calculator.subtract(34,78))
+
+pip install pandas
+pip istall numpy
