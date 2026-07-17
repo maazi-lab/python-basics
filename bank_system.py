@@ -1,3 +1,6 @@
+# File: bank_system.py
+# Demonstrates simple bank account classes with deposit, withdrawal, and overdraft logic.
+
 
 
 class InsufficientFundsError(Exception):

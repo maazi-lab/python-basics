@@ -1,3 +1,6 @@
+# File: assignment.py
+# Demonstrates string operations, list and dictionary use, and basic input/output.
+
 name = input("enter your name: ")
 name.upper()
 print(name)

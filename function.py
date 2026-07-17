@@ -1,3 +1,6 @@
+# File: function.py
+# Demonstrates function definitions, calls, and return values.
+
 def greet(name):
     print("=" * 30)
     print("Hello:" + name + "!")

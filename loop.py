@@ -1,3 +1,6 @@
+# File: loop.py
+# Demonstrates for loops, conditional checks, and simple loop-based computations.
+
 for i in range (1, 21):
     print(i)
     

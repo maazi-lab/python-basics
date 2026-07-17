@@ -1,3 +1,6 @@
+# File: tuples.py
+# Demonstrates tuple operations, membership checks, and aggregation.
+
 fruit = ("apple", "banana", "guava")
 print(fruit)
 print(fruit[-1])

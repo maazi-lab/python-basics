@@ -1,3 +1,6 @@
+# File: class.py
+# Demonstrates list operations and conditional filtering examples.
+
 states = ["Ebonyi", "Enugu", "Anambra", "Kaduna", "Imo"]
 print(states[0])
 print(states[4])

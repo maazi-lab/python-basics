@@ -1,3 +1,6 @@
+# File: error.py
+# Demonstrates exception handling with try/except/finally.
+
 try:
     num = int(input("Enter a number: "))
     result = 10 / num
@@ -111,3 +114,20 @@ except SchoolFeeError as e:
 finally:
     print("Vsit us again.")
     
+class PayError(Exception):
+    pass
+def market_price(price):
+    item = input("enter item name:")
+    if item == "Book":
+        print(f"item : {price}")
+    else:
+        raise PayError("item not found")
+
+try:
+    market_price("Beans")
+except PayError as e:
+    print("Store owner say ", e)
+finally:
+    print("business successful")
+
+market_price(4500)

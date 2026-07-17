@@ -1,3 +1,6 @@
+# File: strings.py
+# Demonstrates string manipulation methods and formatting.
+
 name = "maazi miracle"
 print(name.upper())
 print(name.title())

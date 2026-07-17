@@ -1,66 +1,45 @@
- # Python Basics 🐍
+# Python Basics Practice Repository
 
-A collection of Python practice files built while learning programming fundamentals from scratch.
+A curated collection of beginner Python practice scripts covering core programming fundamentals. Each file demonstrates a concept such as variables, data structures, functions, loops, file I/O, object-oriented programming, and error handling.
 
-## What's Inside
+## Repository Contents
 
-- *Variables & Data Types* — strings, integers, floats, booleans
-- *Functions* — defining and calling functions
-- *Lists & Tuples* — storing and accessing data
-- *Dictionaries* — key-value data structures
-- *Loops* — for loops and while loops
-- *File Handling* — reading and writing files
-- *Calculator* — a functional calculator built with Python
+- `assignment.py` — string methods, dictionaries, and user input examples.
+- `advanced_functions.py` — examples of `*args`, `**kwargs`, and iterable processing.
+- `bank_system.py` — simple bank account classes with deposit, withdrawal, and overdraft logic.
+- `class.py` — list operations and conditional filtering examples.
+- `deep_oop.py` — encapsulation, properties, and validation using object-oriented design.
+- `error.py` — exception handling patterns with try/except/finally.
+- `file_handling.py` — file reading, writing, appending, and line-by-line iteration.
+- `free.py` — branching logic, loops, and basic user interaction.
+- `function.py` — function definitions, calls, and return values.
+- `inheritance.py` — class inheritance examples using animals and bank accounts.
+- `list.py` — list creation and iteration examples.
+- `loop.py` — for loops, conditionals, and numerical computations.
+- `my_calculator.py` — a command-line calculator application.
+- `oop.py` — object-oriented class examples and encapsulation patterns.
+- `school.py` — simple functions for students and teachers.
+- `strings.py` — string manipulation methods and formatting.
+- `student_system_project.py` — student scoring, grading, and custom exception handling.
+- `tuples.py` — tuple operations, membership checks, and aggregation.
+- `while_loop.py` — while loops, sentinel loops, and loop control.
+- `dictionary.py` — dictionary creation, updates, deletion, and basic lookups.
 
-## Projects
+## Notes
 
-### 🧮 Calculator
-A command-line calculator that performs addition, subtraction, multiplication and division using Python functions and user input.
+- Header comments were added to each Python file for clarity.
+- The original code logic was preserved as requested.
 
-## About
+## Usage
 
-Built by *MyrakTech* (maazi-lab) — an aspiring AI/ML Engineer based in Nigeria, learning Python as the foundation for Machine Learning development.
+Run any script using Python 3:
 
-## Tech Stack
-- Python 3
+```bash
+python filename.py
+```
 
-## Status
-🚀 actively learning and adding new files daily
+Some scripts use input or read from text files, so run them from the repository root.
 
----
+## Author
 
-Connect with me: [GitHub](https://github.com/maazi-lab)
-
--
-[12:12 pm, 23/06/2026] +234 905 003 2004: Ok[12:12 pm, 23/06/2026] MyrakTech: # Python Basics 🐍
-
-A collection of Python practice files built while learning programming fundamentals from scratch.
-
-## What's Inside
-
-- *Variables & Data Types* — strings, integers, floats, booleans
-- *Functions* — defining and calling functions
-- *Lists & Tuples* — storing and accessing data
-- *Dictionaries* — key-value data structures
-- *Loops* — for loops and while loops
-- *File Handling* — reading and writing files
-- *Calculator* — a functional calculator built with Python
-
-## Projects
-
-### 🧮 Calculator
-A command-line calculator that performs addition, subtraction, multiplication and division using Python functions and user input.
-
-## About
-
-Built by *MyrakTech* (maazi-lab) — an aspiring AI/ML Engineer based in Nigeria, learning Python as the foundation for Machine Learning development.
-
-## Tech Stack
-- Python 3
-
-## Status
-🚀 actively learning and adding new files daily
-
----
-
-Connect with me: [GitHub](https://github.com/maazi-lab)
+Created by MyrakTech / maazi-lab.

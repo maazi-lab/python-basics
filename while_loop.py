@@ -1,3 +1,6 @@
+# File: while_loop.py
+# Demonstrates while loops, sentinel loops, and loop control.
+
 i = 0 
 while i <= 5:
     print(i)

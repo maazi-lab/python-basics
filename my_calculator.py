@@ -1,3 +1,6 @@
+# File: my_calculator.py
+# Demonstrates a command-line calculator application using basic arithmetic operations.
+
 import math
 while True:
     print("=====MYRAKTECH CALCULATOR====")
